@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Church Worship Song App</title>
+<link rel="manifest" href="manifest.json" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>Church Worship Songs</h1>
+
+<div>
+  <label for="songSelect">Select Song:</label>
+  <select id="songSelect">
+    <option value="song1.json">Amazing Grace</option>
+  </select>
+  <button onclick="loadSong()">Load Song</button>
+</div>
+
+<h2 id="title"></h2>
+<h3>Lyrics</h3>
+<p id="lyrics"></p>
+<h3>Chords</h3>
+<pre id="chords"></pre>
+<button onclick="loadSheet()">View Sheet Music</button>
+<div id="sheetContainer"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
