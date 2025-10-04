@@ -1,0 +1,14 @@
+{
+  "name": "Church Worship Song App",
+  "short_name": "WorshipSongs",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
